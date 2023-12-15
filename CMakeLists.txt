@@ -1,8 +1,7 @@
 
-# Licensed under the MIT License.
-project(AzureBlob)
-cmake_minimum_required (VERSION 3.13)
 
+cmake_minimum_required (VERSION 3.13)
+project(AzureBlob)
 if(MSVC)
   add_compile_definitions(_CRT_SECURE_NO_WARNINGS)
 endif()
